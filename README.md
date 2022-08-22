@@ -25,3 +25,16 @@ Model	Accuracy	AUC
 4	k-Nearest Neighbors	97.6	0.764588
 
 In  both Train and Test -  Random Forest method accuracy was higher 
+
+
+
+
+Task 3
+Explain back propagation: Back-propagation is mainly used for imporving the accuracy of the predicition, backpropogation is also know as backward propogation. It is an algorithm used to calculate derivatives quickly.
+1. If the data set is large:
+
+We can just simply remove the rows with missing data values.
+It is the quickest way, we use the rest of the data to predict the values.
+2. For smaller data sets:
+
+We can substitute missing values with the mean or average of the rest of the data using the pandas' data frame in python. There are different ways to do so, such as df.mean(), df.fillna(mean).
